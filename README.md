@@ -1,16 +1,4 @@
-# TicTacToe
-For this project, we were asked to code the TicTacToe game!
-
-## Description
-In this project, i recreated the Tic Tac Toe game for my Java course. just like the original, it is a two player game. It uses the regular Tic Tac Toe board, with 9 boxes total. It can detect vertical and horizontal wins, however will be modified soon to add vertical wins as well. It is designed to play a single round, and will keep going until there is a winner (or none). 
-
-## Visuals
-A lot of work and compiler-error fixing was put into making the ASCII art for this project look nice. Please appreciate it! Win to unlock a very nice picture of what i like to call dancing queen spongebob.
-
-## Authors and acknowledgment
-I would like to thank my Java teacher, Swetha, for helping me with so many aspects of the game, especially the special UNO cards! All websites used to find ASCII art have been linked in code comments!
-
-## Tic-Tac-Toe Game
+# Tic-Tac-Toe Game
 This is a simple command-line implementation of the Tic-Tac-Toe game in Java. It allows two players to take turns placing their tokens on a 3x3 game board until one player wins or the game ends in a tie.
 
 ## Getting Started

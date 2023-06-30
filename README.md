@@ -28,7 +28,7 @@ Square: The Square enum class defines the possible values that can be placed on 
 This project is for educational purposes and intended as a basic implementation of the Tic-Tac-Toe game. Therefore, contributions are not expected. However, if you have suggestions or improvements, you can fork the project, make your changes, and submit a pull request.
 
 ## License
-The project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
+The project is licensed under the GNU License. Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ## Acknowledgments
 This project was created as a learning exercise and based on personal knowledge and experience with Java. No external sources were referenced during its development.

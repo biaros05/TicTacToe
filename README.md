@@ -17,9 +17,9 @@ The row and column numbers should be in the range of 1 to 3, corresponding to th
 
 Copy code
   1 2 3
-1 _ _ _
-2 _ _ _
-3 _ _ _
+ 1 _ _ _
+ 2 _ _ _
+ 3 _ _ _
 The game ends when one player successfully forms a horizontal, vertical, or diagonal line of three tokens, or when all positions on the grid are filled.
 If a winning condition is achieved, the winning player is declared.
 If all positions on the grid are filled without a winner, the game ends in a tie.

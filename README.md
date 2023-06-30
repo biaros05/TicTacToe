@@ -13,13 +13,7 @@ The game is played on a 3x3 grid.
 Two players take turns placing their tokens on the empty squares of the grid.
 Player 1 uses the "X" token, and Player 2 uses the "O" token.
 Each player selects the position for their token by entering the row and column numbers.
-The row and column numbers should be in the range of 1 to 3, corresponding to the grid positions as shown:
-
-Copy code
-  1 2 3
- 1 _ _ _
- 2 _ _ _
- 3 _ _ _
+The row and column numbers should be in the range of 1 to 3.
 The game ends when one player successfully forms a horizontal, vertical, or diagonal line of three tokens, or when all positions on the grid are filled.
 If a winning condition is achieved, the winning player is declared.
 If all positions on the grid are filled without a winner, the game ends in a tie.

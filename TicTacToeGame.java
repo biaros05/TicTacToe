@@ -21,6 +21,7 @@ public class TicTacToeGame
 		
 		while(!(gameOver))
 		{
+			System.out.println("Board: ");
 			System.out.println(board);
 			if( player == 1)
 			{

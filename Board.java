@@ -105,8 +105,39 @@ public class Board
 		return(false);
 	}
 	
+	private boolean checkIfWinningDiagonal(Square playerToken)
+	{
+		int streaks = 0;
+		for (int i = 0; i < tictactoeBoard.length; i++)
+		{
+			if (tictactoeBoard[i][i] == playerToken)
+			{
+				streaks++;
+			}
+		}
+		if (streaks == 3)
+		{
+			return(true);
+		}
+		streaks = 0;
+		int j = 0;
+		for (int i = tictactoeBoard.length - 1; i >= 0; i--)
+		{
+			if (tictactoeBoard[j][i] == playerToken)
+			{
+				streaks++;
+			}
+			j++;
+		}
+		if (streaks == 3)
+		{
+			return(true);
+		}
+		return(false);
+	}
+	
 	public boolean checkIfWinning(Square playerToken)
 	{
-		return(checkIfWinningHorizontal(playerToken) || checkIfWinningVertical(playerToken));
+		return(checkIfWinningHorizontal(playerToken) || checkIfWinningVertical(playerToken) || checkIfWinningDiagonal(playerToken));
 	}
 }

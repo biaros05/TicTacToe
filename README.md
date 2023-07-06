@@ -31,6 +31,4 @@ This project is for educational purposes and intended as a basic implementation 
 The project is licensed under the GNU License. Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ## Acknowledgments
-This project was created as a learning exercise and based on personal knowledge and experience with Java. No external sources were referenced during its development.
-Please note that this README file is a template, and you may want to customize it further based on your specific project details and requirements.
-Feel free to add any additional sections or information that you think would be helpful for users of your Tic-Tac-Toe game.
+This project was created as a learning exercise for a class lab project. It was created as per the lab instructions.
